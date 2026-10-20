@@ -5,7 +5,7 @@ class HashChaining:
         self.buckets = [[] for _ in range(capacity)]
         self.size = 0
 
-    def _hash(self, product_id):
+    def _hash(self, product_id): #Tratamento de uso interno
         return product_id % self.capacity
 
     def insert(self, product):
