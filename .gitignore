@@ -1,2 +1,32 @@
-__pycache__
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache e arquivos compilados do Python
+__pycache__/
 *.py[cod]
+*$py.class
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#Arquivos data generated
+data/products_10000.csv
+data/products_100000.csv
+data/products_300000.csv
+
+# Resultados gerados pelo benchmark
+results/benchmark_results.csv
+results/benchmark_readable.txt
+results/graficos/
+
+# Arquivos temporários
+*.log
