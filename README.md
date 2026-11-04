@@ -141,14 +141,13 @@ Os tempos são apresentados em milissegundos (ms). Para facilitar a interpretaç
 
 Tempo necessário para inserir todos os produtos em cada estrutura.
 
-![Gráfico de tempo de inserção](<img width="972" height="526" alt="Apresentação - 2° Unidade PA (1)" src="https://github.com/user-attachments/assets/16a1aba1-3e50-4f1c-a3dd-9da750dfadbb" />
-)
+![Gráfico de tempo de inserção](results/graficos/insercao.png)
 
 | Quantidade | Lista Sequencial | Hash com Encadeamento | Hash com Endereçamento Aberto |
 |---|---:|---:|---:|
-| 10.000 | A preencher | A preencher | A preencher |
-| 100.000 | A preencher | A preencher | A preencher |
-| 300.000 | A preencher | A preencher | A preencher |
+| 10.000 |0,5409 | 4,5448 | 4,2567 |
+| 100.000 | 4,9927 | 46,1066 | 50,7889 |
+| 300.000 | 16,2087 | 169,2914 | 146,6598 |
 
 *Formato dos valores: tempo em ms (notação científica em ms).*
 
@@ -156,14 +155,13 @@ Tempo necessário para inserir todos os produtos em cada estrutura.
 
 Tempo médio por consulta para localizar produtos presentes no conjunto de dados.
 
-![Gráfico de busca existente](<img width="977" height="528" alt="Apresentação - 2° Unidade PA (2)" src="https://github.com/user-attachments/assets/69099ee4-d1ef-4d04-88da-a93d2502de61" />
-)
+![Gráfico de busca existente](results/graficos/busca_existente_por_consulta.png)
 
 | Quantidade | Lista Sequencial | Hash com Encadeamento | Hash com Endereçamento Aberto |
 |---|---:|---:|---:|
-| 10.000 | A preencher | A preencher | A preencher |
-| 100.000 | A preencher | A preencher | A preencher |
-| 300.000 | A preencher | A preencher | A preencher |
+| 10.000 | 0,2009 | 0,0002 | 0,0003 |
+| 100.000 | 1,8739 | 0,0002 | 0,0003 |
+| 300.000 | 5,6567 | 0,0002 | 0,0003 |
 
 *Formato dos valores: tempo em ms (notação científica em ms).*
 
@@ -171,14 +169,13 @@ Tempo médio por consulta para localizar produtos presentes no conjunto de dados
 
 Tempo médio por consulta para verificar que um produto não está presente no conjunto de dados.
 
-![Gráfico de busca inexistente](<img width="954" height="516" alt="Apresentação - 2° Unidade PA (5)" src="https://github.com/user-attachments/assets/077b4833-5871-4a29-9d22-84a841a8176b" />
-)
+![Gráfico de busca inexistente](results/graficos/busca_inexistente_por_consulta.png)
 
 | Quantidade | Lista Sequencial | Hash com Encadeamento | Hash com Endereçamento Aberto |
 |---|---:|---:|---:|
-| 10.000 | A preencher | A preencher | A preencher |
-| 100.000 | A preencher | A preencher | A preencher |
-| 300.000 | A preencher | A preencher | A preencher |
+| 10.000 | 0,4547 | 0,0002 | 0,0004 |
+| 100.000 | 4,7894 | 0,0002 | 0,0003 |
+| 300.000 | 12,4531 | 0,0001 | 0,0003 |
 
 *Formato dos valores: tempo em ms (notação científica em ms).*
 
@@ -186,14 +183,13 @@ Tempo médio por consulta para verificar que um produto não está presente no c
 
 Tempo total necessário para remover os 50 produtos selecionados em cada estrutura.
 
-![Gráfico de tempo de remoção](<img width="979" height="529" alt="Apresentação - 2° Unidade PA (3)" src="https://github.com/user-attachments/assets/c3d8d596-8f8d-4785-83f4-6f421d72b94e" />
-)
+![Gráfico de tempo de remoção](results/graficos/remocao_amostra.png)
 
 | Quantidade | Lista Sequencial | Hash com Encadeamento | Hash com Endereçamento Aberto |
 |---|---:|---:|---:|
-| 10.000 | A preencher | A preencher | A preencher |
-| 100.000 | A preencher | A preencher | A preencher |
-| 300.000 | A preencher | A preencher | A preencher |
+| 10.000 | 16,3915 | 0,0352 | 0,0250 |
+| 100.000 | 175,2211 | 0,0472 | 0,0341 |
+| 300.000 | 430,7153 | 0,0478 | 0,0394 |
 
 *Formato dos valores: tempo em ms (notação científica em ms).*
 
@@ -201,14 +197,13 @@ Tempo total necessário para remover os 50 produtos selecionados em cada estrutu
 
 Tempo necessário para executar todas as etapas do experimento, desde a inserção dos produtos até a conclusão das remoções.
 
-![Gráfico de tempo total](<img width="970" height="522" alt="Apresentação - 2° Unidade PA (4)" src="https://github.com/user-attachments/assets/55b34c46-16db-4ee0-9d3a-cc3eaf4eda4e" />
-)
+![Gráfico de tempo total](results/graficos/tempo_total_experimento.png)
 
 | Quantidade | Lista Sequencial | Hash com Encadeamento | Hash com Endereçamento Aberto |
 |---|---:|---:|---:|
-| 10.000 | A preencher | A preencher | A preencher |
-| 100.000 | A preencher | A preencher | A preencher |
-| 300.000 | A preencher | A preencher | A preencher |
+| 10.000 | 52,7655 | 9,9658 | 4,0409 |
+| 100.000 | 507,9068 | 544,0192 | 45,5447 |
+| 300.000 | 1340,7360 | 152,1096 | 142,4191 |
 
 *Formato dos valores: tempo em ms (notação científica em ms).*
 
