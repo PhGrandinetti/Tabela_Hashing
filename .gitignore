@@ -26,7 +26,7 @@ data/products_300000.csv
 # Resultados gerados pelo benchmark
 results/benchmark_results.csv
 results/benchmark_readable.txt
-results/graficos/
+
 
 # Arquivos temporários
 *.log
